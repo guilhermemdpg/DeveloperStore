@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wO3iUEXMBkY=",
+  "success": true,
+  "projectFilePath": "/Users/guilhermegarcia/Documents/DeveloperStore/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/DeveloperStore.Infrastructure.CrossCutting.IOC.csproj",
+  "expectedPackageFiles": [
+    "/Users/guilhermegarcia/.nuget/packages/autofac/8.2.1/autofac.8.2.1.nupkg.sha512",
+    "/Users/guilhermegarcia/.nuget/packages/system.diagnostics.diagnosticsource/8.0.1/system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
