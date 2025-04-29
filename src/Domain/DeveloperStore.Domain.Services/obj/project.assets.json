@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "DeveloperStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DeveloperStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeveloperStore.Domain.dll": {}
+        }
+      },
+      "DeveloperStore.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DeveloperStore.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DeveloperStore.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeveloperStore.Domain.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DeveloperStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DeveloperStore.Domain/DeveloperStore.Domain.csproj",
+      "msbuildProject": "../DeveloperStore.Domain/DeveloperStore.Domain.csproj"
+    },
+    "DeveloperStore.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj",
+      "msbuildProject": "../DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "DeveloperStore.Domain >= 1.0.0",
+      "DeveloperStore.Domain.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/guilhermegarcia/.nuget/packages/": {}
@@ -13,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/guilhermegarcia/Documents/DeveloperStore/Domain/DeveloperStore.Domain.Services/DeveloperStore.Domain.Services.csproj",
+      "projectUniqueName": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Services/DeveloperStore.Domain.Services.csproj",
       "projectName": "DeveloperStore.Domain.Services",
-      "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/Domain/DeveloperStore.Domain.Services/DeveloperStore.Domain.Services.csproj",
+      "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Services/DeveloperStore.Domain.Services.csproj",
       "packagesPath": "/Users/guilhermegarcia/.nuget/packages/",
-      "outputPath": "/Users/guilhermegarcia/Documents/DeveloperStore/Domain/DeveloperStore.Domain.Services/obj/",
+      "outputPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Services/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/guilhermegarcia/.nuget/NuGet/NuGet.Config"
@@ -31,7 +69,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj": {
+              "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj"
+            },
+            "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj": {
+              "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

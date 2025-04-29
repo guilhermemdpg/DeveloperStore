@@ -1,0 +1,6 @@
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/obj/Debug/net8.0/DeveloperStore.API.Application.csproj.AssemblyReference.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/obj/Debug/net8.0/DeveloperStore.API.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/obj/Debug/net8.0/DeveloperStore.API.Application.AssemblyInfoInputs.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/obj/Debug/net8.0/DeveloperStore.API.Application.AssemblyInfo.cs
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/obj/Debug/net8.0/DeveloperStore.API.Application.csproj.CoreCompileInputs.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/obj/Debug/net8.0/DeveloperStore.API.Application.sourcelink.json

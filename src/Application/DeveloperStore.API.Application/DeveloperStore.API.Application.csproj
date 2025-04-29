@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="../../Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj" />
+    <ProjectReference Include="../../Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj" />
+  </ItemGroup>
 </Project>

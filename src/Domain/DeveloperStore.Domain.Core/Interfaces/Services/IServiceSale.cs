@@ -6,7 +6,7 @@ namespace DeveloperStore.Domain.Core.Interfaces.Services
     {
         void Add(IServiceSale obj);
         IServiceSale GetById(int id);
-        IEnumerable<IServiceSale> GetAll();
+        IEnumerable<Sale> GetAll();
         void Update(IServiceSale obj);
         void Remove(IServiceSale obj);
         void Dispose();

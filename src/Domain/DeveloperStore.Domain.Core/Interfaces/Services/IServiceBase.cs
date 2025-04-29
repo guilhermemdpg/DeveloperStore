@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace DeveloperStore.Domain.Core.Interfaces.Services
 {
     public interface IServiceBase<TEntity> : IDisposable where TEntity : class
@@ -7,6 +10,5 @@ namespace DeveloperStore.Domain.Core.Interfaces.Services
         IEnumerable<TEntity> GetAll();
         void Update(TEntity obj);
         void Remove(TEntity obj);
-        void Dispose();
     }
 }

@@ -2,6 +2,7 @@ using DeveloperStore.Domain.Core.Interfaces.Repositorys;
 using Microsoft.OpenApi.Models;
 using DeveloperStore.Infrastructure.Data;
 using DeveloperStore.Infrastructure.Repository.Repositorys;
+using System.Data.SQLite;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,7 +23,7 @@ builder.Services.AddSwaggerGen(options =>
 
 // EF Core: Configure DB Context (using InMemory for simplicity — switch to SQLServer if needed)
 builder.Services.AddDbContext<SqlContext>(options =>
-    options.UseSqlServer("DeveloperStoreDb")); // Replace with .UseSqlServer(...) if using SQL Server
+    options.UseSqlite("developer_store.sqlite")); // Replace with .UseSqlServer(...) if using SQL Server
 
 // Dependency Injection: Register Repositories
 builder.Services.AddScoped<IRepositorySale, RepositorySale>();

@@ -1,0 +1,12 @@
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/bin/Debug/net8.0/DeveloperStore.Domain.deps.json
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/bin/Debug/net8.0/DeveloperStore.Domain.dll
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/bin/Debug/net8.0/DeveloperStore.Domain.pdb
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/obj/Debug/net8.0/DeveloperStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/obj/Debug/net8.0/DeveloperStore.Domain.AssemblyInfoInputs.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/obj/Debug/net8.0/DeveloperStore.Domain.AssemblyInfo.cs
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/obj/Debug/net8.0/DeveloperStore.Domain.csproj.CoreCompileInputs.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/obj/Debug/net8.0/DeveloperStore.Domain.sourcelink.json
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/obj/Debug/net8.0/DeveloperStore.Domain.dll
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/obj/Debug/net8.0/refint/DeveloperStore.Domain.dll
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/obj/Debug/net8.0/DeveloperStore.Domain.pdb
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/obj/Debug/net8.0/ref/DeveloperStore.Domain.dll

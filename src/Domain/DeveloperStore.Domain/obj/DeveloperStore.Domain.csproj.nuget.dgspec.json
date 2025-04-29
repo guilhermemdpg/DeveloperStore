@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/guilhermegarcia/Documents/DeveloperStore/DeveloperStore.Domain/DeveloperStore.Domain.csproj": {}
+    "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj": {}
   },
   "projects": {
-    "/Users/guilhermegarcia/Documents/DeveloperStore/DeveloperStore.Domain/DeveloperStore.Domain.csproj": {
+    "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/guilhermegarcia/Documents/DeveloperStore/DeveloperStore.Domain/DeveloperStore.Domain.csproj",
+        "projectUniqueName": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj",
         "projectName": "DeveloperStore.Domain",
-        "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/DeveloperStore.Domain/DeveloperStore.Domain.csproj",
+        "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj",
         "packagesPath": "/Users/guilhermegarcia/.nuget/packages/",
-        "outputPath": "/Users/guilhermegarcia/Documents/DeveloperStore/DeveloperStore.Domain/obj/",
+        "outputPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/guilhermegarcia/.nuget/NuGet/NuGet.Config"

@@ -1,0 +1,16 @@
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/Debug/net8.0/DeveloperStore.Domain.Core.csproj.AssemblyReference.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/Debug/net8.0/DeveloperStore.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/Debug/net8.0/DeveloperStore.Domain.Core.AssemblyInfoInputs.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/Debug/net8.0/DeveloperStore.Domain.Core.AssemblyInfo.cs
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/Debug/net8.0/DeveloperStore.Domain.Core.csproj.CoreCompileInputs.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/Debug/net8.0/DeveloperStore.Domain.Core.sourcelink.json
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/bin/Debug/net8.0/DeveloperStore.Domain.Core.deps.json
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/bin/Debug/net8.0/DeveloperStore.Domain.Core.dll
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/bin/Debug/net8.0/DeveloperStore.Domain.Core.pdb
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/bin/Debug/net8.0/DeveloperStore.Domain.dll
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/bin/Debug/net8.0/DeveloperStore.Domain.pdb
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/Debug/net8.0/Develope.B5171B11.Up2Date
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/Debug/net8.0/DeveloperStore.Domain.Core.dll
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/Debug/net8.0/refint/DeveloperStore.Domain.Core.dll
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/Debug/net8.0/DeveloperStore.Domain.Core.pdb
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/Debug/net8.0/ref/DeveloperStore.Domain.Core.dll

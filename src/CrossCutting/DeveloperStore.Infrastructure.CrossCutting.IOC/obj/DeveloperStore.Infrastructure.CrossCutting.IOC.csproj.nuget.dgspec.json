@@ -1,17 +1,351 @@
 {
   "format": 1,
   "restore": {
-    "/Users/guilhermegarcia/Documents/DeveloperStore/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/DeveloperStore.Infrastructure.CrossCutting.IOC.csproj": {}
+    "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/DeveloperStore.Infrastructure.CrossCutting.IOC.csproj": {}
   },
   "projects": {
-    "/Users/guilhermegarcia/Documents/DeveloperStore/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/DeveloperStore.Infrastructure.CrossCutting.IOC.csproj": {
+    "/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/DeveloperStore.API.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/guilhermegarcia/Documents/DeveloperStore/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/DeveloperStore.Infrastructure.CrossCutting.IOC.csproj",
-        "projectName": "DeveloperStore.Infrastructure.CrossCutting.IOC",
-        "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/DeveloperStore.Infrastructure.CrossCutting.IOC.csproj",
+        "projectUniqueName": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/DeveloperStore.API.Application.csproj",
+        "projectName": "DeveloperStore.API.Application",
+        "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/DeveloperStore.API.Application.csproj",
         "packagesPath": "/Users/guilhermegarcia/.nuget/packages/",
-        "outputPath": "/Users/guilhermegarcia/Documents/DeveloperStore/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/obj/",
+        "outputPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/guilhermegarcia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj": {
+                "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj"
+              },
+              "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj": {
+                "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/DeveloperStore.Infrastructure.CrossCutting.Adapter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/DeveloperStore.Infrastructure.CrossCutting.Adapter.csproj",
+        "projectName": "DeveloperStore.Infrastructure.CrossCutting.Adapter",
+        "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/DeveloperStore.Infrastructure.CrossCutting.Adapter.csproj",
+        "packagesPath": "/Users/guilhermegarcia/.nuget/packages/",
+        "outputPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/guilhermegarcia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/DeveloperStore.API.Application.csproj": {
+                "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/DeveloperStore.API.Application.csproj"
+              },
+              "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj": {
+                "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/DeveloperStore.Infrastructure.CrossCutting.IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/DeveloperStore.Infrastructure.CrossCutting.IOC.csproj",
+        "projectName": "DeveloperStore.Infrastructure.CrossCutting.IOC",
+        "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/DeveloperStore.Infrastructure.CrossCutting.IOC.csproj",
+        "packagesPath": "/Users/guilhermegarcia/.nuget/packages/",
+        "outputPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/guilhermegarcia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/DeveloperStore.API.Application.csproj": {
+                "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application/DeveloperStore.API.Application.csproj"
+              },
+              "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/DeveloperStore.Infrastructure.CrossCutting.Adapter.csproj": {
+                "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/DeveloperStore.Infrastructure.CrossCutting.Adapter.csproj"
+              },
+              "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Services/DeveloperStore.Domain.Services.csproj": {
+                "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Services/DeveloperStore.Domain.Services.csproj"
+              },
+              "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj": {
+                "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj",
+        "projectName": "DeveloperStore.Domain.Core",
+        "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj",
+        "packagesPath": "/Users/guilhermegarcia/.nuget/packages/",
+        "outputPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/guilhermegarcia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj": {
+                "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Services/DeveloperStore.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Services/DeveloperStore.Domain.Services.csproj",
+        "projectName": "DeveloperStore.Domain.Services",
+        "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Services/DeveloperStore.Domain.Services.csproj",
+        "packagesPath": "/Users/guilhermegarcia/.nuget/packages/",
+        "outputPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/guilhermegarcia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj": {
+                "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj"
+              },
+              "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj": {
+                "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj",
+        "projectName": "DeveloperStore.Domain",
+        "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj",
+        "packagesPath": "/Users/guilhermegarcia/.nuget/packages/",
+        "outputPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/guilhermegarcia/.nuget/NuGet/NuGet.Config"
@@ -42,12 +376,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "AutoFac": {
-              "target": "Package",
-              "version": "[8.2.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

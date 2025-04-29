@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wAye5BHGWuY=",
+  "dgSpecHash": "Z+2sMTkkWv0=",
   "success": true,
-  "projectFilePath": "/Users/guilhermegarcia/Documents/DeveloperStore/Data/DeveloperStore.Infrastructure.CrossCutting.Adapter/DeveloperStore.Infrastructure.CrossCutting.Adapter.csproj",
+  "projectFilePath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/DeveloperStore.Infrastructure.CrossCutting.Adapter.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

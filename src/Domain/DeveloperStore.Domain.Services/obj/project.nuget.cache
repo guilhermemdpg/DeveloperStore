@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jBXsj5PmoQI=",
+  "dgSpecHash": "4HvhW4J9bC8=",
   "success": true,
-  "projectFilePath": "/Users/guilhermegarcia/Documents/DeveloperStore/Domain/DeveloperStore.Domain.Services/DeveloperStore.Domain.Services.csproj",
+  "projectFilePath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Services/DeveloperStore.Domain.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

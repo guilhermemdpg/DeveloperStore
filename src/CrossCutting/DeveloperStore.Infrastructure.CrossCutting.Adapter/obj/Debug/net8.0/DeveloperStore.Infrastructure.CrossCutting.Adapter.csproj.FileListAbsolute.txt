@@ -1,0 +1,6 @@
+/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/obj/Debug/net8.0/DeveloperStore.Infrastructure.CrossCutting.Adapter.csproj.AssemblyReference.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/obj/Debug/net8.0/DeveloperStore.Infrastructure.CrossCutting.Adapter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/obj/Debug/net8.0/DeveloperStore.Infrastructure.CrossCutting.Adapter.AssemblyInfoInputs.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/obj/Debug/net8.0/DeveloperStore.Infrastructure.CrossCutting.Adapter.AssemblyInfo.cs
+/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/obj/Debug/net8.0/DeveloperStore.Infrastructure.CrossCutting.Adapter.csproj.CoreCompileInputs.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/CrossCutting/DeveloperStore.Infrastructure.CrossCutting.Adapter/obj/Debug/net8.0/DeveloperStore.Infrastructure.CrossCutting.Adapter.sourcelink.json
