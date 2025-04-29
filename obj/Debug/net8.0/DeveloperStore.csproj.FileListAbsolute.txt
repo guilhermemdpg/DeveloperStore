@@ -1,7 +1,0 @@
-/Users/guilhermegarcia/Documents/DeveloperStore/obj/Debug/net8.0/DeveloperStore.csproj.AssemblyReference.cache
-/Users/guilhermegarcia/Documents/DeveloperStore/obj/Debug/net8.0/DeveloperStore.GeneratedMSBuildEditorConfig.editorconfig
-/Users/guilhermegarcia/Documents/DeveloperStore/obj/Debug/net8.0/DeveloperStore.AssemblyInfoInputs.cache
-/Users/guilhermegarcia/Documents/DeveloperStore/obj/Debug/net8.0/DeveloperStore.AssemblyInfo.cs
-/Users/guilhermegarcia/Documents/DeveloperStore/obj/Debug/net8.0/DeveloperStore.csproj.CoreCompileInputs.cache
-/Users/guilhermegarcia/Documents/DeveloperStore/obj/Debug/net8.0/DeveloperStore.MvcApplicationPartsAssemblyInfo.cs
-/Users/guilhermegarcia/Documents/DeveloperStore/obj/Debug/net8.0/DeveloperStore.MvcApplicationPartsAssemblyInfo.cache
