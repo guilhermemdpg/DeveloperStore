@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DeveloperStore.Domain.Services/1.0.0": {
+        "dependencies": {
+          "DeveloperStore.Domain": "1.0.0",
+          "DeveloperStore.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "DeveloperStore.Domain.Services.dll": {}
+        }
+      },
+      "DeveloperStore.Domain/1.0.0": {
+        "runtime": {
+          "DeveloperStore.Domain.dll": {}
+        }
+      },
+      "DeveloperStore.Domain.Core/1.0.0": {
+        "dependencies": {
+          "DeveloperStore.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DeveloperStore.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeveloperStore.Domain.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeveloperStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeveloperStore.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

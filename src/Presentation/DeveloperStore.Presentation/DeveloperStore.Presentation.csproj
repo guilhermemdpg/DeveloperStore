@@ -10,9 +10,11 @@
     <PackageReference Include="AutoFac" Version="8.2.1" />
     <PackageReference Include="AutoFac.Extensions.DependencyInjection" Version="10.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+    <PackageReference Include="OpenApi" Version="1.0.1" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.119" />
-     <ProjectReference Include="../../Application/DeveloperStore.Application/DeveloperStore.Application.csproj" />
+    <ProjectReference Include="../../Application/DeveloperStore.Application/DeveloperStore.Application.csproj" />
     <ProjectReference Include="../../CrossCutting/DeveloperStore.Infrastructure.CrossCutting.IOC/DeveloperStore.Infrastructure.CrossCutting.IOC.csproj" />
+    <ProjectReference Include="../../Data/DeveloperStore.Infrastructure.Repository/DeveloperStore.Infrastructure.Repository.csproj" />
   </ItemGroup>
 
 </Project>

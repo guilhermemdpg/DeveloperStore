@@ -1,0 +1,12 @@
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/bin/Debug/net8.0/DeveloperStore.API.Application.DTO.deps.json
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/bin/Debug/net8.0/DeveloperStore.API.Application.DTO.dll
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/bin/Debug/net8.0/DeveloperStore.API.Application.DTO.pdb
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/obj/Debug/net8.0/DeveloperStore.API.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/obj/Debug/net8.0/DeveloperStore.API.Application.DTO.AssemblyInfoInputs.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/obj/Debug/net8.0/DeveloperStore.API.Application.DTO.AssemblyInfo.cs
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/obj/Debug/net8.0/DeveloperStore.API.Application.DTO.csproj.CoreCompileInputs.cache
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/obj/Debug/net8.0/DeveloperStore.API.Application.DTO.sourcelink.json
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/obj/Debug/net8.0/DeveloperStore.API.Application.DTO.dll
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/obj/Debug/net8.0/refint/DeveloperStore.API.Application.DTO.dll
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/obj/Debug/net8.0/DeveloperStore.API.Application.DTO.pdb
+/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/obj/Debug/net8.0/ref/DeveloperStore.API.Application.DTO.dll

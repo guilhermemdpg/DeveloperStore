@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "DeveloperStore.API.Application.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DeveloperStore.API.Application.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeveloperStore.API.Application.DTO.dll": {}
+        }
+      },
       "DeveloperStore.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -28,6 +38,11 @@
     }
   },
   "libraries": {
+    "DeveloperStore.API.Application.DTO/1.0.0": {
+      "type": "project",
+      "path": "../DeveloperStore.API.Application.DTO/DeveloperStore.API.Application.DTO.csproj",
+      "msbuildProject": "../DeveloperStore.API.Application.DTO/DeveloperStore.API.Application.DTO.csproj"
+    },
     "DeveloperStore.Domain/1.0.0": {
       "type": "project",
       "path": "../../Domain/DeveloperStore.Domain/DeveloperStore.Domain.csproj",
@@ -41,6 +56,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "DeveloperStore.API.Application.DTO >= 1.0.0",
       "DeveloperStore.Domain >= 1.0.0",
       "DeveloperStore.Domain.Core >= 1.0.0"
     ]
@@ -70,6 +86,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/DeveloperStore.API.Application.DTO.csproj": {
+              "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Application/DeveloperStore.API.Application.DTO/DeveloperStore.API.Application.DTO.csproj"
+            },
             "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj": {
               "projectPath": "/Users/guilhermegarcia/Documents/DeveloperStore/src/Domain/DeveloperStore.Domain.Core/DeveloperStore.Domain.Core.csproj"
             },

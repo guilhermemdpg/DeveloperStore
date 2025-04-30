@@ -1,14 +1,15 @@
+using System.Collections.Generic;
 using DeveloperStore.Domain.Entities;
 
 namespace DeveloperStore.Domain.Core.Interfaces.Services
 {
     public interface IServiceSale : IServiceBase<Sale>
     {
-        void Add(IServiceSale obj);
-        IServiceSale GetById(int id);
-        IEnumerable<Sale> GetAll();
-        void Update(IServiceSale obj);
-        void Remove(IServiceSale obj);
-        void Dispose();
+        new void Add(Sale obj);
+        new Sale GetById(int id);
+        new IEnumerable<Sale> GetAll();
+        new void Update(Sale obj);
+        new void Remove(Sale obj);
+        new void Dispose();
     }
 }

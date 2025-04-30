@@ -6,12 +6,37 @@ namespace DeveloperStore.Domain.Services
 {
     public class ServiceCustomer : ServiceBase<Customer>, IServiceCustomer
     {
-        public readonly IRepositoryCustomer _repositoryCustomer;
+        private readonly IRepositoryCustomer _repositoryCustomer;
 
-        public ServiceCustomer(IRepositoryCustomer RepositoryCustomer)
-            : base(RepositoryCustomer)
+        public ServiceCustomer(IRepositoryCustomer repositoryCustomer)
+            : base(repositoryCustomer)
         {
-            _repositoryCustomer = RepositoryCustomer;
+            _repositoryCustomer = repositoryCustomer;
+        }
+
+        public new void Add(Customer obj)
+        {
+            _repositoryCustomer.Add(obj);
+        }
+
+        public new IEnumerable<Customer> GetAll()
+        {
+            return _repositoryCustomer.GetAll();
+        }
+
+        public new Customer GetById(int id)
+        {
+            return _repositoryCustomer.GetById(id);
+        }
+
+        public new void Remove(Customer obj)
+        {
+            _repositoryCustomer.Remove(obj);
+        }
+
+        public new void Update(Customer obj)
+        {
+            _repositoryCustomer.Update(obj);
         }
     }
 }

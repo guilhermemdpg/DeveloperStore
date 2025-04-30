@@ -1,5 +1,5 @@
 using DeveloperStore.Domain.Core.Interfaces.Repositorys;
-using Microsoft.OpenApi.Models;
+using OpenApi.Models;
 using DeveloperStore.Infrastructure.Data;
 using DeveloperStore.Infrastructure.Repository.Repositorys;
 using System.Data.SQLite;

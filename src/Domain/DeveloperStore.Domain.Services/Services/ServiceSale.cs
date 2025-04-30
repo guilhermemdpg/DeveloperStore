@@ -8,35 +8,35 @@ namespace DeveloperStore.Domain.Services
     {
         private readonly IRepositorySale _repositorySale;
 
-        public ServiceSale(IRepositorySale RepositorySale)
-            : base(RepositorySale)
+        public ServiceSale(IRepositorySale repositorySale)
+            : base(repositorySale)
         {
-            _repositorySale = RepositorySale;
+            _repositorySale = repositorySale;
         }
 
-        void IServiceSale.Add(IServiceSale obj)
+        public new void Add(Sale obj)
         {
-            throw new NotImplementedException();
+            _repositorySale.Add(obj);
         }
 
-        IEnumerable<IServiceSale> IServiceSale.GetAll()
+        public new IEnumerable<Sale> GetAll()
         {
-            throw new NotImplementedException();
+            return _repositorySale.GetAll();
         }
 
-        IServiceSale IServiceSale.GetById(int id)
+        public new Sale GetById(int id)
         {
-            throw new NotImplementedException();
+            return _repositorySale.GetById(id);
         }
 
-        void IServiceSale.Remove(IServiceSale obj)
+        public new void Remove(Sale obj)
         {
-            throw new NotImplementedException();
+            _repositorySale.Remove(obj);
         }
 
-        void IServiceSale.Update(IServiceSale obj)
+        public new void Update(Sale obj)
         {
-            throw new NotImplementedException();
+            _repositorySale.Update(obj);
         }
     }
 }
