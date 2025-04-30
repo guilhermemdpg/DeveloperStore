@@ -25,11 +25,13 @@ The solution follows DDD layers:
 This project represents an intensive learning experience with:
 - DDD principles and implementation
 - Entity Framework Core setup and configuration
+- Dependency Injection
+- Microservices
+- API
 - Clean Architecture practices
 - SOLID principles application
 
 ## Technical Challenges Overcome
-- Setting up proper DDD layer separation
 - Implementing repository patterns
 - Configuring dependency injection
 - Managing entity relationships
@@ -37,6 +39,7 @@ This project represents an intensive learning experience with:
 ## Work in Progress
 Currently working on:
 - Bug fixes on runtime
+- Setting up proper DDD layer separation
 - Better error handling
 - API documentation with Swagger
 - Database creation (SQLite)
@@ -44,9 +47,9 @@ Currently working on:
 
 ## Future Improvements
 Planning to add:
-- Postgre implementation
 - More functionalities
 - Performance optimizations
+- Clear and cleaner project organization
 
 ## Running the Project
 (Instructions coming soon)
@@ -59,7 +62,15 @@ Planning to add:
 
 ## Final Thoughts
 While building this project in a short timeframe was challenging, it provided valuable insights into DDD architecture and modern .NET development practices. The learning curve was steep but rewarding, especially in understanding how different layers interact in a domain-driven application.
-Unfortunately it still have some flaws and bugs, but i only had 3 days creating this due to my on site daily job. And considering i'm still learning DDD and Entity Framework Core, it was really challenging but also learned a lot in the process.
+Unfortunately it still have some flaws and bugs, but i only had 4 days and a couple of nights creating this due to my on site daily job. And considering i'm still learning DDD and Entity Framework Core, it was really challenging but also learned a lot in the process.
+
+Above all i'll keep fixing and improving this project because i think is such a great way of learning new concepts and achitecture to improve myself
+as a software developer.
+
+Errors that i'm facing now: 
+
+Circular dependencies, now i learning how to solve this, i understood what it means and also how this impact in my project and also on architecture choices
+to make the project more understandable, semantic and way better correct following DDD best practices. 
 
 ## Contact
 For any questions or suggestions, feel free to reach out!
